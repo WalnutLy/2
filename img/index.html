@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7 ]> <html class="ie6" lang="en-us"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en-us"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en-us"> <![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!--> <html lang="en-us"><!-- InstanceBegin template="/Templates/MAT_Template.dwt" codeOutsideHTMLIsLocked="false" --> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Media Arts and Technologies @ MiraCosta College</title>
+<!-- InstanceEndEditable -->
+<meta name="description" content="The Department of Media Arts and Technologies (MAT) at MiraCosta College in San Diego offers courses and programs in Graphic Design, Web Design and Development, and Video and Media Design">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<link rel="icon" href="favicon.ico" />  
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+
+<link href="css/matstyles.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/mat.js"></script>
+
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript">
+$(function() {
+	$("#slideshow > div:gt(0)").hide(); //hides all divs except the first photo/child div
+	var slides = setInterval("slideIt()", 5000); //calls slideIt function every three seconds
+	});
+		
+	function slideIt() {
+		$("#slideshow > div:first")
+		.fadeOut(1500)
+		.next()
+		.fadeIn(1500)
+		.end()
+		.appendTo("#slideshow");
+	}
+</script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<header>
+<div id="headercontainer">
+  <h1>Media Arts and Technologies @ <a href="http://www.miracosta.edu">MiraCosta College</a></h1>
+  <div id="skipforaccessibility"><a href="#contentcontainer" tabindex="1">Skip to Main Content</a></div>
+  <nav id="supplementalnav"><a href="http://www.miracosta.edu/studentservices/applyenroll/newstudents.html" target="_blank">Enroll</a> | <a href="contact.html">Contact</a></nav>
+</div>
+</header>
+
+<div id="container">
+
+<div id="logo"><a href="index.html"><img src="images/circlelogo.png" alt="MAT Logo"></a></div>
+<!-- InstanceBeginEditable name="pageId" -->
+<h2 id="pageid">welcome</h2>
+<!-- InstanceEndEditable -->
+
+<!-- /////////// NAVIGATION /////////// -->
+<button id="menubutton">MENU</button>
+<nav id="mainnav">
+  <ul>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="degrees.html">Degrees</a></li>
+    <li><a href="faculty.html">Faculty</a></li>
+    <li><a href="facilities.html">Facilities</a></li>
+    <li><a href="showcase.html">Showcase</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="contactbutton"><a href="contact.html">Contact</a></li>
+  </ul>
+</nav><!--/mainnav-->
+
+<!-- ///////// SECONDARY NAV /////////// -->
+<!-- InstanceBeginEditable name="secondaryNav" -->
+<nav id="secnav"><!-- #BeginLibraryItem "/Library/degrees.lbi" -->  <ul>
+    <li class="grouptitlefirst">Associate in Arts Degrees</li>
+    <li><a href="degrees/graphic_aa.html">Graphic Design</a></li>
+    <li><a href="degrees/webdevelopment_aa.html">Web Development &amp; Design</a></li>
+    <li class="grouptitle">Certificates of Achievement</li>
+    <li><a href="degrees/graphic_certofA.html">Graphic Design</a></li>
+    <li><a href="degrees/webdevelopment_certofA.html">Web Development &amp; Design</a></li>
+    <li><a href="degrees/videomedia_certofA.html">Video &amp; Media Design</a></li>
+    <li class="grouptitle">Certificates of Proficiency</li>
+    <li><a href="degrees/digitalmedia_certofP.html">Digital Media Foundations</a></li>
+    <li><a href="degrees/printpublishing_certofP.html">Digital and Print Publishing</a></li>
+    <li><a href="degrees/videoanimation_certofP.html">Video &amp; Animation</a></li>
+    <li><a href="degrees/graphiccomm_certofP.html">Graphic Communication</a></li>
+    <li><a href="degrees/webdesign_certofP.html">Web Design</a></li>
+  </ul><!-- #EndLibraryItem --></nav>
+<!-- InstanceEndEditable -->
+
+<!-- //////////// CONTENT //////////// -->
+<!-- InstanceBeginEditable name="mainContent" -->
+<div id="contentcontainer">
+  <section class="textcontent">
+    <h3>We are Media Arts and Technologies</h3>
+    <div id="slideshow">
+      <div><img src="images/banners/studentsinlab1.jpg" alt="" /></div>
+      <div><img src="images/banners/studentsinlab2.jpg" alt="" /></div>
+      <div><img src="images/banners/studentsinlab3.jpg" alt="" /></div>
+      <div><img src="images/banners/studentsinlab4.jpg" alt="" /></div>
+      <div><img src="images/banners/studentsinlab5.jpg" alt="" /></div>
+      <div><img src="images/banners/studentsinlab6.jpg" alt="" /></div>
+      <div><img src="images/banners/studentsinlab7.jpg" alt="" /></div>
+      <div><img src="images/banners/studentsinlab8.jpg" alt="" /></div>
+  </div>
+    <p>We are a community of learners focused on design, media arts and technologies.</p>
+    <p>We love graphic design, web design and development,  digital imaging and illustration, interactive media design, print publishing, video and animation.</p>
+    <p>We strive to develop solid concepts, design relevant projects, work collaboratively, communicate effectively, and solve problems, all while learning the appropriate software, tools and techniques to achieve these ends.</p>
+    <p>We are MAT. <a href="joinus.html">Come join us</a>.</p>
+</section>
+  <!--/textcontent-->
+</div><!--/contentcontainer-->
+<!-- InstanceEndEditable -->
+
+</div> <!--/container-->
+
+<!-- ////////// FOOTER /////////// -->
+<footer><p>Site Design by Noushin Moradkhani, Alana Olzick, and Frank Shanley in MAT 235 - Web Design 3: Site Design and Architecture</p></footer>
+
+<!-- Google Analytics -->
+<script>
+	var _gaq=[['_setAccount','UA-34745691-1'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+<div style="display:none;">
+<a href="https://totoabadi23.com/">https://totoabadi23.com/</a>
+<a href="https://abadicash59.com/">abadicash</a>
+<a href="https://www.abadislot73.com/">abadislot</a>
+<a href="https://menarampo79.com/">https://menarampo79.com/</a>
+<a href="https://www.nemcia.org/">royalbola</a>
+<a href="https://jackhowleyscholarship.com/">abadislot</a>
+<a href="https://www.defenseofamerica.org/">abadislot</a>
+<a href="https://www.wocaonline.org/">menara368</a>
+<a href="https://schoolfoodfinder.com/">abadicash</a>
+<a href="https://vipmaxwin2.com/">vipmaxwin</a>
+<a href="https://helpash.org/">menara368</a>
+<a href="https://www.nceducationalliance.org/">totoabadi</a>
+<a href="https://bio.site/menara368">Menara368</a>
+</div>
+
+</body>
+<!-- InstanceEnd --></html>
